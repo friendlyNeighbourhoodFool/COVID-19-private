@@ -26,4 +26,5 @@ Features:
    10)Icons dissapear when screen size is reduced to allow breathing space.
    
    11)When hovered over navigation bar links change colour.
+  
    
