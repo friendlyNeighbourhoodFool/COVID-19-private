@@ -1,78 +1,197 @@
-body{
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	background: #f5d9d5;  /* fallback for old browsers */
-	font-family:"Nunito",sans-serif; 	
-}
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap" rel="stylesheet">
 
-#mainNavbar .navbar-brand{
-	color:#EA1C2C;
-	
-}
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-#mainNavbar .nav-link{
-	color:white;
-}
+    
+    <link rel="stylesheet" type="text/css" href="app.css">
 
-#mainNavbar .nav-link:hover{
-	color:#EA1C2C;
-}
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://previews.123rf.com/images/azvector/azvector1803/azvector180300604/97679315-skills-icon-with-star-sign-skills-icon-and-best-favorite-rating-symbol-vector-icon.jpg">
 
-#mainNavbar{
-	font-size:1.5rem;
-	font-weight: 100;
-}
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-#headingGroup span{
-	color:#EA1C2C;
-}
-
-#headingGroup h1{
-	font-weight: 100;
-	font-size:2.6rem;
-}
-
-@media (max-width:1450px){
-	#headingGroup h1{
-	font-weight: 100;
-	font-size:2rem;
-}
-}
-
-#icon{
-	height:5.5rem;
-	width:5.5rem;
-}
-
-.blurb h2{
-	color:#EA1C2C;
-	font-weight: 100;
-	font-size:2.5rem;
-} 
-
-.blurb p{
-	color:#f498b8;
-	font-weight: 100;
-	font-size:1.125rem;
-	line-height: 2;
-}
-
-.content{
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-
-.navbar.scrolled{
-	background:rgb(222,192,222);
-	transition:background 500ms;
-}
+    <title>Skills to learn!</title>
+  </head>
 
 
 
+  <body>
+
+    <nav id="mainNavbar" class="navbar navbar-dark  navbar-expand-md py-0 fixed-top">
+      <a class="navbar-brand" href="#">SKILLS</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Community</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <section class="container-fluid px-0">
+      <div class="row align-items-center">
+        <div class="col-lg-6 d-none d-lg-block mt-5">
+          <div id="headingGroup" class="text-white text-center ">
+            <h1 >SKILLS<span>/</span>TO<span>/</span>LEARN<span>/</span>DURING<span>/</span>LOCKDOWN</h1>  
+            <h1 >SKILLS<span>/</span>TO<span>/</span>LEARN<span>/</span>DURING<span>/</span>LOCKDOWN</h1> 
+            <h1 >SKILLS<span>/</span>TO<span>/</span>LEARN<span>/</span>DURING<span>/</span>LOCKDOWN</h1> 
+            
+          </div>
+          
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid" src="https://cdn.dribbble.com/users/1123248/screenshots/3753944/castle_illustration.png">
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid px-0">
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+            <img src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1956&q=80" class="img-fluid">
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center">
+
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>Learn a language.</h2>
+           <img id="icon" src="https://img.icons8.com/ ios/500/language.png" class="d-none d-lg-inline">
+           <p class="lead">An obvious one but what  better way to start thinking about all the  holidays you’ll be able to take once this is  over than by learning the language of the  countries you visit.Plus, it’s always useful to have on your CV  and if working abroad has been on your mind,  then get a head start by picking up the  local lingo.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+       <div class="row align-items-center content">
+        
+        <div class="col-md-6 text-center">
+          <div class="row justify-content-center">
+
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>Learn photography.</h2>
+           <img id="icon" src="https://cdn2.iconfinder.com/data/icons/avatar-114/64/photographer-occupation-profession-traveller-vlogger-utuber-512.png" class="d-none d-lg-inline">
+           <p class="lead">Avid photography fans or those new to the craft can pick up tips, polish existing skills and further your interest with an online photography class.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-6">
+            <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="img-fluid">
+        </div>
+      </div>
+
+
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+            <img src="https://images.unsplash.com/photo-1502519144081-acca18599776?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="img-fluid">
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center">
+
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>Learn Dancing.</h2>
+           <img id="icon" src="https://cdn3.iconfinder.com/data/icons/dancing-dancer/214/dance-dancing-010-512.png" class="d-none d-lg-inline">
+           <p class="lead">Up your dance game with at-home classes, you can follow along with online, going at your own pace and being right next to a shower when you’ve worked up a sweat.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row align-items-center content">
+        
+        <div class="col-md-6 text-center">
+          <div class="row justify-content-center">
+
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>Learn to code.</h2>
+           <img id="icon" src="https://cdn.iconscout.com/icon/free/png-512/coding-317-517904.png">
+           <p class="lead">Learning to code can make you more self-sufficient,teach you how to think and take your career to new heights. It is a skill that every one should possess in the new world!</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-6">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80" class="img-fluid">
+        </div>
+      </div>
 
 
 
+      <div class="row align-items-center content "  >
+        <div class="col-md-6 order-2 order-md-1 " >
+          <div class="row justify-content-center" >
+            <div class="col-10 col-lg-8 mb-5 mb-md-0" >
+              <div id="containerp">
+                <h1 id="h">To-do List <i class="fa fa-plus"></i></h1>
+                <input type="text" placeholder="Add New To-do">
+                <ul id="g">
+                  <li id="li"><span id="sp"><i class="fa fa-trash"></i></span> Learn Cooking</li>
+                  <li id="li"><span id="sp"><i class="fa fa-trash"></i></span> Learn Dancing</li>
+                  <li id="li"><span id="sp"><i class="fa fa-trash"></i></span> Learn Singing</li>
+                </ul>
+              </div>
+                
+              </div>
+            </div>
+            
+
+        </div>
 
 
+        <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center">
+
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>Add a new skill to our to-do list app.</h2>
+           <img id="icon" src="https://cdn2.iconfinder.com/data/icons/business-office-icons/256/To-do_List-512.png">
+           <p class="lead">Use our app to keep track of your new skill set during lockdown.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+
+      <hr>
+
+      
+      
+    </section>
 
 
+    
 
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/JavaScript" src="app.js">
+     
+      </script>
+  </body>
+</html>
